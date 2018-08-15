@@ -1,0 +1,52 @@
+/* pages/myCollection/myCollection.wxss */
+.container{
+  background-color: #f2f2f2;
+  font-size: 32rpx;
+  height: 100vh;
+  width: 100%;
+}
+.navbottom{
+  border-bottom: 2px solid aquamarine;
+}
+.navleft,
+.navright{
+  padding: 30rpx;
+  width: 150rpx;
+}
+.con-nav{
+  text-align: center;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 4rpx;
+}
+.con-body{
+  background-color: #fff;
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  height: 310rpx;
+}
+image{
+  width: 240rpx;
+  height: 240rpx;
+  padding: 40rpx;
+  position: absolute;
+}
+.head{
+  position: absolute;
+  left: 320rpx;
+  top: 60rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.charge{
+  left: 320rpx;
+  top: 130rpx;
+  position: absolute;
+}
+.loc{
+  position: absolute;
+  left: 320rpx;
+  top: 200rpx;
+}

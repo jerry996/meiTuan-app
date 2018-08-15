@@ -1,0 +1,45 @@
+/* pages/myInfo/myInfo.wxss */
+.container{
+  width: 100%;
+  background-color: #f2f2f2;
+  height:100vh;
+}
+.head{
+  width: 100%;
+  background-color: #fff;
+  margin-bottom:40rpx
+}
+.head:after{
+  content: "";
+  display: "block";
+  clear: both
+}
+image{
+  width: 150rpx;
+  height: 150rpx;
+  padding: 40rpx;
+}
+.nickName{
+  position: absolute;
+  top:110rpx;
+  left:260rpx;
+}
+.info{
+  padding: 20rpx;
+  background-color: #fff;
+  margin-bottom: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  font-size: 32rpx;
+}
+.tel{
+  font-size: 22rpx;
+  line-height: 40rpx;
+  color:#999;
+}
+button{
+  position: absolute;
+  bottom: 50rpx;
+  width: 90%;
+  left: 5%;
+}

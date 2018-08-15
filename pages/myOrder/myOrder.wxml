@@ -1,0 +1,12 @@
+<!--pages/myOrder/myOrder.wxml-->
+<view class='container'>
+  <view class='con-body' wx:for="{{items}}">
+    <image src='{{item.img}}'></image>
+    <view class='head'>
+      <view class='name'>{{item.title}}</view>
+      <view class='klo'>{{item.state}}</view>
+    </view>
+    <view class='charge'>{{item.charge}}</view>
+    <view class='loc'>{{item.loc}}</view>
+  </view>
+</view>

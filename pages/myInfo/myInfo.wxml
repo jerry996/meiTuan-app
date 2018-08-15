@@ -1,0 +1,32 @@
+<!--pages/myInfo/myInfo.wxml-->
+<view class='container'>
+  <view class='head'>
+    <image src="{{userInfo.img}}"></image>
+    <view class='nickName'>{{userInfo.nickName}}</view>
+  </view>
+<block wx:if="{{isShow}}">
+  <view class='info' bindtap='myOrder'>
+    <view>我的订单</view>
+    <view>></view>
+  </view>
+  <view class='info' bindtap='myCollection'>
+    <view>我的收藏</view>
+    <view>></view>
+  </view>
+  <view class='info' bindtap='myWallet'>
+    <view>我的券包</view>
+    <view>></view>
+  </view>
+  <view class='info'>
+    <view>我的抽奖</view>
+    <view>></view>
+  </view>
+  <view class='info'>
+    <view>客服电话：10107888</view>
+    <view class='tel'>（服务时间：9：00-23：00）</view>
+  </view>
+  </block>
+  <button bindtap="login" type='{{btnType}}'>{{msg}}</button>
+
+
+</view>

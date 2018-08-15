@@ -1,0 +1,44 @@
+/* pages/myOrder/myOrder.wxss */
+.container{
+  background-color: #f2f2f2;
+  font-size: 32rpx;
+  height: 100vh;
+  width: 100%;
+}
+.con-body{
+  background-color: #fff;
+  width: 100%;
+  position: relative;
+  border-top: 1px solid #ccc;
+  height: 310rpx;
+
+}
+image{
+  width: 240rpx;
+  height: 240rpx;
+  padding: 40rpx;
+  position: absolute;
+}
+.head{
+  margin-left: 320rpx;
+  margin-top: 60rpx;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.klo{
+  color: rgb(126, 240, 248)
+}
+.charge{
+  left: 320rpx;
+  top: 130rpx;
+  position: absolute;
+  color: #999;
+}
+.loc{
+  position: absolute;
+  left: 320rpx;
+  top: 200rpx;
+  color: #999;
+}

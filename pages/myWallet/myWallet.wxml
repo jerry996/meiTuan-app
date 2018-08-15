@@ -1,0 +1,4 @@
+<!--pages/myWallet/myWallet.wxml-->
+<view class='msg'>
+没有可用券
+</view>

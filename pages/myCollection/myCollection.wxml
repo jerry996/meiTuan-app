@@ -1,0 +1,17 @@
+<!--pages/myCollection/myCollection.wxml-->
+<view class='container'>
+  <view class='con-nav'>
+    <view class='{{navleftclass}}' bindtap='navleft'>商家</view>
+    <view class='{{navrightclass}}' bindtap='navright'>商品</view>
+  </view>
+
+  <view class='con-body' wx:if="{{isShow}}">
+    <image src='/imgs/shop/shop_1.png'></image>
+    <view class='head'>
+      <view class='name'>泰潮（柏威年店）</view>
+      <view class='klo'>11.6km</view>
+    </view>
+    <view class='charge'>人均￥89</view>
+    <view class='loc'>胜利广场/青泥洼桥 泰国菜</view>
+  </view>
+</view>

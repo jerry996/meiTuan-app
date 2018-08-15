@@ -1,0 +1,6 @@
+/* pages/myWallet/myWallet.wxss */
+.msg{
+  text-align: center;
+  font-size: 32rpx;
+  margin-top: 40rpx;
+}

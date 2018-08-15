@@ -1,0 +1,114 @@
+/* pages/index/index.wxss */
+.container {
+  width: 100%;
+  background-color: #fff;
+}
+.head{
+  width: 100%;
+  padding: 30rpx 20rpx;
+  position: relative
+}
+.search-icon{
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+}
+.city{
+  position: absolute;
+  left: 20rpx;
+}
+.input{
+  background-color: #f2f2f2;
+  width: 75%;
+  position: absolute;
+  left: 140rpx;
+  border-radius: 10px;
+}
+.input input{
+  font-size: 32rpx;
+  text-indent: 2em;
+}
+.turnPage{
+  width: 100%;
+  height: 300rpx;
+  margin: 40rpx 0;
+}
+swiper{
+  width: 100%;
+  height: 100%; 
+}
+.turnPage image{
+  width: 90%;
+  height: 100%;
+  margin-left:5%;
+}
+
+
+.contain{
+  font-size: 28rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contain image{
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 50%;
+}
+.title{
+  /* margin-left: 30rpx; */
+  text-align: center;
+}
+.con-body{
+  margin: 18rpx;
+}
+
+.img image{
+  width: 100%;
+  margin: 30rpx 0;
+}
+.guess{
+  color: #999;
+  border-bottom: 2px solid #f2f2f2;
+  border-top: 20rpx solid #f2f2f2;
+  text-align: center;
+  padding: 20rpx;
+}
+
+.conBody{
+  background-color: #fff;
+  width: 100%;
+  position: relative;
+  border-top: 1px solid #f2f2f2;
+  height: 280rpx;
+  font-size: 30rpx;
+
+}
+.conImage{
+  width: 220rpx;
+  height: 220rpx;
+  padding: 40rpx;
+  position: absolute;
+}
+.conHead{
+  margin-left: 320rpx;
+  margin-top: 60rpx;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.klo{
+  color: #999;
+}
+.charge{
+  left: 320rpx;
+  top: 130rpx;
+  position: absolute;
+  color: #f40;
+}
+.loc{
+  position: absolute;
+  left: 320rpx;
+  top: 200rpx;
+  color: #999;
+}
